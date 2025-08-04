@@ -1,5 +1,5 @@
 .hero-image{
-    background-image: url('images/hero.jpg');
+    background-image: url("./images/Purple header.png");
     height: 180px;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }
 
 .hero-text{
-    font-family: 'Just Another Hand', cursive;
+    font-family: 'Just Another Hand';
     color: azure;
     font-size: 50px;
 }
