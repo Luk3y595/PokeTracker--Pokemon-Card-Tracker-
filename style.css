@@ -1,16 +1,13 @@
-.hero-image{
-    background-image: url("./images/Purple header.png");
-    height: 180px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+section{
+    background-color: #400a58;
 }
 
-.hero-text{
-    font-family: 'Just Another Hand';
+h1{
+    font-family: 'just another hand';
     color: azure;
     font-size: 50px;
+    text-align: left;
 }
 body{
-    background-color: #400a58;
+    background-color: azure;
 }
