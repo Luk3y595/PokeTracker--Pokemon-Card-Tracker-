@@ -1,11 +1,16 @@
-.header {
-    background-color: #400a58;
+.hero-image{
+    background-image: url('images/hero.jpg');
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-h1 {
+
+.hero-text{
     font-family: 'Just Another Hand', cursive;
     color: azure;
     font-size: 50px;
 }
-body {
-    background-color: azure;
+body{
+    background-color: #400a58;
 }
