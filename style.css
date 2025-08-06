@@ -2,11 +2,23 @@ section{
     background-color: #400a58;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .title {
-    font-family: 'Just Another Hand', cursive;
+    font-family: 'pokemonsolid', cursive;
     color: azure;
     font-size: 50px;
     text-align: left;
+
+}
+
+.Logo {
+    width: 60px;
+    height: 60px;
+    position: absolute;
 }
 
 body{
