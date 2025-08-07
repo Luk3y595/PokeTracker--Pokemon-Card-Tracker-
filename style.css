@@ -4,16 +4,13 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: normal;
 }
 
-section {
-  background-color: #400a58;
-}
-
 .flex-container {
     display: flex;
     flex-direction: row;
     gap: 20px;
     padding-left: 10px;
     align-items: center;
+    background-color: #400a58;
 }
 
 .title {
@@ -31,4 +28,9 @@ section {
 
 body{
     background-color: azure;
+}
+
+p {
+    font-family: 'pokemonsolid', cursive;
+    color: #400a58;
 }
