@@ -30,7 +30,20 @@ body{
     background-color: azure;
 }
 
-p {
+.four-column {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 80px;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #400a58;
+}
+
+.pack_name {
     font-family: 'pokemonsolid', cursive;
     color: #400a58;
+    font-size: 14px;
 }
