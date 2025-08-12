@@ -36,14 +36,20 @@ body{
     gap: 40px;
     padding: 20px;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 60px;
     align-items: center;
     text-align: center;
-    border: 3px solid #400a58;
+}
+
+.pack {
+    background-color: #6b3284;
+    img {
+        padding-top: 20px;
+    }
 }
 
 .pack_name {
     font-family: 'pokemonsolid', cursive;
-    color: #400a58;
+    color: azure;
     font-size: 14px;
 }
