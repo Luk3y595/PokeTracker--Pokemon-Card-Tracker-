@@ -53,3 +53,25 @@ body{
     color: azure;
     font-size: 14px;
 }
+
+#Destined-Rivals-Header {
+    background-color: #6b3284;
+}
+
+.pack-image {
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.pack_name {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 14px;
+}
+
+.pack-title {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 30px;
+    padding-bottom: 200px;
+}
