@@ -108,3 +108,169 @@ body{
     gap: 25px;
     padding-bottom: 50px;
 }
+
+#Journey-Together-Header {
+    display: flex;
+    position: relative;
+    background-color: #6b3284;
+}
+
+.pack-image {
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.pack_name {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 14px;
+}
+
+.pack-title {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 30px;
+}
+
+.pack-card-amount {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 20px;
+}
+
+.pack-info {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 250px;
+}
+
+.pack-card-amount {
+    padding-left: 50px;
+    padding-top: 12px;
+}
+
+.pack-card-info {
+    position: absolute;
+    bottom: 85px;
+    left: 250px;
+    z-index: 0;
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 14px;
+    display: flex;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+#Prismatic-Evolutions-Header {
+    display: flex;
+    position: relative;
+    background-color: #6b3284;
+}
+
+.pack-image {
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.pack_name {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 14px;
+}
+
+.pack-title {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 30px;
+}
+
+.pack-card-amount {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 20px;
+}
+
+.pack-info {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 250px;
+}
+
+.pack-card-amount {
+    padding-left: 50px;
+    padding-top: 12px;
+}
+
+.pack-card-info {
+    position: absolute;
+    bottom: 85px;
+    left: 250px;
+    z-index: 0;
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 14px;
+    display: flex;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+#Surging-Sparks-Header {
+    display: flex;
+    position: relative;
+    background-color: #6b3284;
+}
+
+.pack-image {
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.pack_name {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 14px;
+}
+
+.pack-title {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 30px;
+}
+
+.pack-card-amount {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 20px;
+}
+
+.pack-info {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 250px;
+}
+
+.pack-card-amount {
+    padding-left: 50px;
+    padding-top: 12px;
+}
+
+.Surging-Sparks-Card-Info {
+    position: absolute;
+    bottom: 85px;
+    left: 250px;
+    z-index: 0;
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 14px;
+    display: flex;
+    gap: 25px;
+    padding-bottom: 22px;
+}
+
