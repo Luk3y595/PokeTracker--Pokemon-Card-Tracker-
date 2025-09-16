@@ -41,6 +41,19 @@ body{
     text-align: center;
 }
 
+.Cards {
+    background-color: #6b3284;
+    img {
+        padding-top: 20px;
+    }
+}
+
+.card_name {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 14px;
+}
+
 .pack {
     background-color: #6b3284;
     img {
@@ -162,6 +175,7 @@ body{
     display: flex;
     gap: 25px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 #Prismatic-Evolutions-Header {
@@ -262,6 +276,7 @@ body{
 }
 
 .Surging-Sparks-Card-Info {
+    width: 800px;
     position: absolute;
     bottom: 85px;
     left: 250px;
@@ -270,7 +285,7 @@ body{
     color: azure;
     font-size: 14px;
     display: flex;
-    gap: 25px;
-    padding-bottom: 22px;
+    gap: 25px;  
+    flex-wrap: wrap;
 }
 
