@@ -51,7 +51,18 @@ body{
 .card_name {
     font-family: 'pokemonsolid', cursive;
     color: azure;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.Destined-Rivals-Cards {
+    width: 200px;
+    height: 280px;
+}
+
+.card_number {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 16px;
 }
 
 .pack {
