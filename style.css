@@ -43,6 +43,7 @@ body{
 
 .Cards {
     background-color: #6b3284;
+    width: 250px;
     img {
         padding-top: 20px;
     }
@@ -59,10 +60,17 @@ body{
     height: 280px;
 }
 
-.card_number {
+.cards_collected {
     font-family: 'pokemonsolid', cursive;
     color: azure;
     font-size: 16px;
+    padding-right: 10px;
+}
+
+.card_number {
+    font-family: 'pokemonsolid', cursive;
+    color: azure;
+    font-size: 16px;    
 }
 
 .pack {
