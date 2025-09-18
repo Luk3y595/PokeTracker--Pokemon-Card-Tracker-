@@ -30,7 +30,7 @@
             </div>
             <div class="pack-info">
                 <h1 class="pack-title">Scarlet & Violet Surging Sparks</h1>
-                <h2 class="pack-card-amount">0 out of 252 Pokémon cards collected</h2>
+                <h2 class="pack-card-amount"><span id="CheckedCount">0</span> out of 252 Pokémon cards collected</h2>
             </div>
             <div class="Surging-Sparks-Card-Info">
                 <h2 class="Surging-Sparks-Commons">91 Common Cards</h2>
@@ -44,6 +44,95 @@
                 <h2 class="Surging-Sparks-Hyper-Rares">6 Hyper Rare Cards</h2>
             </div>
         </div>
+        <section class="four-column">
+            <div class="Cards">
+                <img src="./images/Shiny Mew placeholder card.png" alt="Ethan's Pinsir"
+                    class="Destined-Rivals-Cards">
+                <p class="card_name">Exeggcute</p>
+                <label class="cards_collected">
+                    <input type="checkbox" class="my-checkbox">
+                    001/182 Common
+                </label>
+            </div>
+            <div class="Cards">
+                <img src="./images/Shiny Mew placeholder card.png" alt="Yanma" class="Destined-Rivals-Cards">
+                <p class="card_name">Exeggcute</p>
+                <label class="cards_collected">
+                    <input type="checkbox" class="my-checkbox">
+                    002/182 Common
+                </label>
+            </div>
+            <div class="Cards">
+                <img src="./images/Shiny Mew placeholder card.png" alt="Yanmega ex"
+                    class="Destined-Rivals-Cards">
+                <p class="card_name">Exeggutor</p>
+                <label class="cards_collected">
+                    <input type="checkbox" class="my-checkbox">
+                    003/182 Uncommon
+                </label>
+            </div>
+            <div class="Cards">
+                <img src="./images/Shiny Mew placeholder card.png" alt="Pineco" class="Destined-Rivals-Cards">
+                <p class="card_name">Durant ex</p>
+                <label class="cards_collected">
+                    <input type="checkbox" class="my-checkbox">
+                    004/182 Double Rare
+                </label>
+            </div>
+        </section>
+        <section class="four-column">
+            <div class="Cards">
+                <img src="./images/Shiny Mew placeholder card.png" alt="Card Placeholder" class="Destined-Rivals-Cards">
+                <p class="card_name">Scatterbug</p>
+                <label class="cards_collected">
+                    <input type="checkbox" class="my-checkbox">
+                    005/182 Common
+                </label>
+            </div>
+            <div class="Cards">
+                <img src="./images/Shiny Mew placeholder card.png" alt="Scarlet & Violet Journey Together pack"
+                    class="Destined-Rivals-Cards">
+                <p class="card_name">Spewpa</p>
+                <label class="cards_collected">
+                    <input type="checkbox" class="my-checkbox">
+                    006/182 Common
+                </label>
+            </div>
+            <div class="Cards">
+                <img src="./images/Shiny Mew placeholder card.png" alt="Scarlet & Violet Prismatic Evolutions pack"
+                    class="Destined-Rivals-Cards">
+                <p class="card_name">Vivillon</p>
+                <label class="cards_collected">
+                    <input type="checkbox" class="my-checkbox">
+                    007/182 Uncommon
+                </label>
+            </div>
+            <div class="Cards">
+                <img src="./images/Shiny Mew placeholder card.png" alt="Scarlet & Violet Surging Sparks pack"
+                    class="Destined-Rivals-Cards">
+                <p class="card_name">Morelull</p>
+                <label class="cards_collected">
+                    <input type="checkbox" class="my-checkbox">
+                    008/182 Common
+                </label>
+            </div>
+        </section>
     </section>
 </body>
+<script>
+        const checkboxes = document.querySelectorAll('.my-checkbox');
+        const CheckedCountSpan = document.getElementById('CheckedCount');
+
+        function updateCheckedCount() {
+            const count = Array.from(checkboxes).filter(checkbox => checkbox.checked).length;
+            CheckedCountSpan.textContent = count;
+        }
+
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', updateCheckedCount);
+        });
+
+        // Initial count on page load
+        updateCheckedCount();
+    </script>
 </html>
