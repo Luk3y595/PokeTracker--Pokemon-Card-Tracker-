@@ -139,6 +139,7 @@ body{
     display: flex;
     gap: 25px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 #Journey-Together-Header {
@@ -153,6 +154,7 @@ body{
     position: relative;
     background-color: #6b3284;
 }
+
 
 
 #Surging-Sparks-Header {
